@@ -1,10 +1,10 @@
-You are provided with:
+Input Data:
 
 - a video clip clip_05.mp4
 - a json file clip_05_pose.json with pose detection information using OpenPose (https://cmu-perceptual-computing-lab.github.io/openpose/web/html/doc/)
 - an example CSV output on the first frame
 
-Your task is to:
+Task to do:
 
 - write a python program that will 
 	(1) generate an output video with (suggested tool/library usage: ffmpeg, opencv): 
@@ -20,4 +20,3 @@ Your task is to:
 	If a value is missing, it should be set to -1
 - comment and document your code so that it is easily reusable
 - your code should be as generic as possible to deal with all similarly named and formatted video-json file pairs
-
